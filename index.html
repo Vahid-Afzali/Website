@@ -4,57 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 
     <header>
-        <div class="header-nav">
+        <div class="header-nav container-fluid ">
+            <div class="row align-items-center ">
+                <div class="flex-column d-flex align-items-center justify-content-between flex-md-row ">
 
-            <div class="contact">
-
-                <e-mail>example@email.com</e-mail>
-                <telefone>+1 (123) 456-7890</telephone>
+                    <div class="contact d-flex align-items-center justify-content-start gap-3">
+                    
+                        <e-mail>example@email.com</e-mail>
+                        <telefone>+1 (123) 456-7890</telephone>
+                        
+                    </div>
                 
+                
+                    <h4>Welcome to My Website</h4>
+                
+                    <div class="icons ">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
             </div>
 
-
-            <h4>Welcome to My Website</h4>
-
-            <div class="icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
         </div>
-        <nav>
-            <div class="menu-left">
+        <nav class="container-fluid">
+            <div class="row align-items-center ">
+                <div class="d-flex align-items-center justify-content-between flex-column flex-md-row">
 
-                <a href="#" class="logo">
-                    <i class="fas fa-code"></i>
-                    <span>Logo</span>
-                </a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Pricing</a></li>
-                </ul>
-            </div>
-            <div class="menu-right">
-                <div class="search">
-                    <input type="text" placeholder="Search...🔍">
-                    <button><i class="fas fa-search"></i></button>
+                    <div class="menu-left d-flex align-items-center justify-content-between  ">
+                    
+                        <a href="#" class="logo d-flex align-items-center justify-content-center">
+                            <i class="fas fa-code"></i>
+                            <span>Logo</span>
+                        </a>
+                        <ul class="menu d-flex align-items-center justify-content-center mb-0 ms-auto gap-3">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-right">
+                        <div class="search">
+                            <input type="text" placeholder="Search...🔍">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <div class="user">
+                            <button><i class="fas fa-user"></i> Login</button>
+                            <button><i class="fas fa-user-plus"></i> Register</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="user">
-                    <button><i class="fas fa-user"></i> Login</button>
-                    <button><i class="fas fa-user-plus"></i> Register</button>
-                </div>
+
             </div>
         </nav>
     </header>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="assets/scripts/main.js"></script>
 </body>
 </html>
